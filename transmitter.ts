@@ -1,10 +1,10 @@
-export class Switch {
+class Switch {
   constructor(
     public pulseHandler: (value: number, pulses: number[]) => void,
     public periodusec = 260,
     public repeats = 2,
     public pulsewidth = 5
-  ) {}
+  ) { }
 
   on(address: number, unit: number) {
     this.transmit(address, unit, 1);
@@ -103,7 +103,7 @@ export class Switch {
   }
 }
 
-export class SensorTransmitter {
+class SensorTransmitter {
   private pulses: number[];
   private previous: number;
 
@@ -247,7 +247,7 @@ export class SensorTransmitter {
 /************************************
  * Thermo / Hygro sensor transmitter
  ***********************************/
-export class ThermoHygroTransmitter {
+class ThermoHygroTransmitter {
   // extends SensorTransmitter
   private sensorTM: SensorTransmitter;
   constructor(
