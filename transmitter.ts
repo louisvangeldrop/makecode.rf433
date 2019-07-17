@@ -294,17 +294,17 @@ class ThermoHygroTransmitter {
 }
 
 function encode(value: number, len: number) {
-  let n = value.toString(2);
-  return new Array(len + 1).join("0").substr(n.length) + n;
+  /* let n = value.toString(2);
+  return new Array(len + 1).join("0").substr(n.length) + n;*/
 
-  /* function encode(value: number, len: number) {
+  function encode(value: number, len: number) {
     let n = (value % 2).toString()
     while ((value = value >> 1) > 0) {
-        n = (value % 2).toString() + n
+      n = (value % 2).toString() + n
     }
     let result = ""
     for (let i = 0; i < len; i++) { result += "0" }
     result = result.substr(n.length) + n;
     return result
-} */
+  }
 }
