@@ -1,0 +1,17 @@
+{
+    "name": "RF433",
+    "meta": {},
+    "editor": "tsprj",
+    "pubId": "",
+    "pubCurrent": false,
+    "target": "maker",
+    "targetVersion": "0.6.8",
+    "id": "e21dc7f8-4be7-4bf3-eeae-6f8fa3cdb392",
+    "recentUse": 1554469480,
+    "modificationTime": 1554469480,
+    "path": "RF433",
+    "blobCurrent": false,
+    "saveId": null,
+    "board": "arduino-zero",
+    "githubCurrent": false
+}

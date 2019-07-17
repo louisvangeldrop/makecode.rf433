@@ -1,0 +1,14 @@
+{
+    "name": "RF433",
+    "dependencies": {
+        "arduino-zero": "*"
+    },
+    "description": "",
+    "files": [
+        "interruptChain.ts",
+        "receiver.ts",
+        "sensorReceiver.ts",
+        "transmitter.ts"
+    ],
+    "preferredEditor": "tsprj"
+}

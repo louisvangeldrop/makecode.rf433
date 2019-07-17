@@ -1,0 +1,33 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "copy raspberry common files",
+            "type": "shell",
+            "windows": {
+                "command": "copy",
+                "args": [
+                    "/y",
+                    "C:\\Users\\louis\\OneDrive\\Apps\\Repos\\IoT\\Raspberry\\NodeJS\\rf433\\common\\*.ts",
+                    "${workspaceFolder}",
+                    // "&",
+                    // "copy",
+                    // "/y",
+                    // "C:\\Users\\louis\\OneDrive\\Apps\\Repos\\IoT\\Espruino\\modules\\common\\*.*",
+                    // "C:\\Users\\louis\\OneDrive\\Apps\\Repos\\IoT\\Espruino\\modules"
+                ]
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "oregon\\tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
+            ]
+        }
+    ]
+}
