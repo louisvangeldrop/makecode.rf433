@@ -5,7 +5,8 @@
     },
     "description": "",
     "files": [
-        "transmitter.ts"
+        "transmitter.ts",
+        "receiver.ts"
     ],
     "preferredEditor": "tsprj"
 }
