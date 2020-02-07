@@ -6,7 +6,10 @@
     "description": "",
     "files": [
         "transmitter.ts",
-        "*.ts"
+        "gpioMakeCode.ts",
+        "interruptChain.ts",
+        "sensor.ts",
+        "sensorReceiver.ts"
     ],
     "preferredEditor": "tsprj"
 }
