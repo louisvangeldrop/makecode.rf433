@@ -8,7 +8,7 @@
         "transmitter.ts",
         "gpioMakeCode.ts",
         "interruptChain.ts",
-        "sensor.ts",
+        "receiver.ts",
         "sensorReceiver.ts"
     ],
     "preferredEditor": "tsprj"
