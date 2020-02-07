@@ -6,8 +6,6 @@
     "description": "",
     "files": [
         "transmitter.ts",
-        "receiver.ts",
-        "interruptChain.ts",
         "*.ts"
     ],
     "preferredEditor": "tsprj"
